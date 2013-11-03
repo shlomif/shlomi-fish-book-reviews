@@ -1,0 +1,28 @@
+= Review: Perl & XML
+
+[Book's Homepage http://www.oreilly.com/catalog/perlxml/]
+
+http://www.oreilly.com/catalog/covers/perlxml.s.gif
+
+*Authors*: Erik T. Ray & Jason McIntosh
+
+*Publisher*: [O'Reilly and Associates http://www.oreilly.com/]
+
+*ISBN*: 0-596-00205-X
+
+*Publishing Date*: April 2002
+
+*Pages*: 216
+
+*Reviewer*: ShlomiFish
+
+*Review Date*: January 2004
+
+*Rating*: 10
+
+This book covers the basics of how to work with XML technologies using Perl. It is written in a light style and is filled with jokes and funny examples. This makes reading it very enjoyable.
+
+This book covers XML basics, the common XML parsers avialable for Perl (in both the event streams and trees variants), some related technologies like XPath and XSLT, as well as some applications of XML. It does not aim to be a comprehensive resource for learning about them, but is a very good introduction, and I learned some new things by reading it.
+
+All in all, a very good read. Highly recommended.
+

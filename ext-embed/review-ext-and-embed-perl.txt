@@ -1,0 +1,21 @@
+= Review: Extending and Embedding Perl
+
+[Book's Homepage http://www.manning.com/jenness/]
+
+http://www.oreilly.com/catalog/covers/apache3.s.gif
+
+*Authors*: Tim Jenness and Simon Cozens
+
+*Publisher*: [Manning http://www.manning.com/]
+
+*ISBN*: 1930110820
+
+*Publishing Date*: August 2002
+
+*Pages*: 384
+
+*Reviewer*: ShlomiFish
+
+*Review Date*: January 2004
+
+This book is written relatively professionally, with many examples, an encompassing content and

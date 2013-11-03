@@ -1,0 +1,26 @@
+= Review: Apache: The Definitive Guide
+
+[Book's Homepage http://www.oreilly.com/catalog/apache3/]
+
+http://www.oreilly.com/catalog/covers/apache3.s.gif
+
+*Authors*: Ben Laurie, Peter Laurie
+
+*Publisher*: [O'Reilly and Associates http://www.oreilly.com/]
+
+*ISBN*: 0-596-00203-3
+
+*Publishing Date*: December 2002
+
+*Pages*: 588
+
+*Reviewer*: ShlomiFish
+
+*Review Date*: December 2003
+
+*Rating*: 7
+
+The book is written very professionaly and covers every last nuance of configuring Apache. My main problem with it was that trying to read it from cover to cover, it was quite boring. Maybe I shouldn't have expected the Apache configuration voodoo to be overly fascinating, but the book insistence to cover every last configuration directive was a bit tedious.
+
+I learned a few new things by reading it, and some of the later chapters are more interesting as they cover general topics. I suppose that if you need to learn how to configure every last thing in Apache, then this book is for you. It may be a good read for everybody who wish to know what they can expect to find in the large amount of configuration directives.
+

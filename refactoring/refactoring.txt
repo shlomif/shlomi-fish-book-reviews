@@ -1,0 +1,62 @@
+= Review: Refactoring - Improving the Design of Existing Code
+
+[Book's Homepage http://martinfowler.com/books.html#refactoring]
+
+http://martinfowler.com/refactoringBook.gif
+
+*Authors*: Martin Fowler with contributions by others
+
+*Publisher*: [Addison-Wesley http://www.awprofessional.com/]
+
+*ISBN*: 0201485672
+
+*Publishing Date*: June 1999
+
+*Pages*: 431
+
+*Reviewer*: ShlomiFish
+
+*Review Date*: June 2004
+
+*Rating*: 9
+
+[Refactoring http://www.refactoring.com/] is improving the internal design
+of a code without changing its external behaviour. This book is the definite
+guide to refactoring, at least in object-oriented systems.
+
+The first chapters of the book are rather general. They introduce the 
+motivation for refactoring, why it is good, why it actually speeds up
+development. Also, they also give a list of "bad smells" in the code
+that indicate that a refactoring is needed. (like duplicate code).
+
+The middle part of the book which is its lion's share is a catalog of 
+various refactorings. These are things like extracting a method, creating
+a superclass, eliminating inheritance, or creating one. The author explains 
+there each refactoring, when to do it, the steps for performing it most 
+safely, and then usually gives an example of how to do it. I found the
+catalog a bit tedious to read, but interesting nonetheless. It taught
+me some new techniques that I was not previously aware of.
+
+The final chapters wrap up the book, and are also interesting to read. They
+consist of an essay by William Opdyke (who wrote a very early research paper
+on refactoring) titled "Refactoring, Reuse and Reality", a chapter about
+[Refactoring Tools http://www.refactoring.com/tools.html], and a short
+summarizing chapter by Kent Beck.
+
+The book smells a bit of hype: Java is used as the example language (albeit
+its use there is quite justified); there are many UML diagrams (which were
+at first confusing to me due to the many kind of arrows they have); and there
+are references of several of the so-called Design Patterns. (from the Gang
+of Four book and otherwise). But they don't detract much from an
+otherwise good book.
+
+The book can also be used as a reference to look for refactorings or see
+how can they be performed well. I think this book has made me more conscious
+of how I refactor and write code, and I try to refactor in a way that will
+minimize the errors caused by it. I'm also now more aware of the "two hats"
+,as Fowler puts it, of either refactoring code or adding new features.
+
+To sum, this is a very good and important book to read, especially for
+beginning programmers. I'm just not sure it justifies the $54.00 list 
+price. This is too much of a price for such a book.
+

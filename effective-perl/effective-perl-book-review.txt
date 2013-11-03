@@ -1,0 +1,35 @@
+= Review: Effective Perl Programming - Writing Better Programs with Perl
+
+[Book's Homepage http://www.aw-bc.com/catalog/academic/product/0,4096,0201419750,00.html]
+
+http://www-fp.aw.com/coverimage/0201419750.jpg
+
+*Authors*: Joseph N. Hall with Randal L. Schwartz
+
+*Publisher*: [Addison-Wesley http://www.awprofessional.com/]
+
+*ISBN*: 0-201-41975-0
+
+*Publishing Date*: December 1997
+
+*Pages*: 288
+
+*Reviewer*: ShlomiFish
+
+*Review Date*: July 2004
+
+*Rating*: 8
+
+This is a nice book that covers many advanced techniques for writing Perl
+programs. It also discusses many caveats and gotchas of the language, and how
+to avoid them. 
+
+The book is quite old and many things it discusses have changed or have been
+updated since then. It is still mostly pertinent, however.
+
+I already knew most of what the book had to say, so it did not renew too much
+to me. Still, I think it can be very suitable for Perl programmers who are
+relatively beginning in the language.
+
+The style of the book is light and enjoyable which makes for a nice reading.
+
