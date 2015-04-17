@@ -1,0 +1,51 @@
+Chapter 02.advanced_regex:
+
+* "perldoc -t" formats the perldoc into plaintext.
+
+From perldoc perldoc:
+
+{{{
+      -t   Display docs using plain text converter, instead of nroff. This
+            may be faster, but it probably won't look as nice.
+}}}
+
+* system { $args[0] } @args;
+
+If I call system(@args) and scalar(@args) == 1 then 
+perldoc -f system will execute it as system "$args[0]", with special
+shell characters and all.
+
+*
+{
+		TaintIn  => 1, 
+		TaintOut => 1,
+}
+
+in DBI.
+
+*
+
+<<<<
+	$SIG{__DIE__} = sub {
+		local $Carp::CarpLevel = 1;
+
+		&Carp::croak;
+		};
+>>>>
+
+To not get the last subroutine value.
+
+* Hook::LexWrap on CPAN:
+
+    use Hook::LexWrap qw(wrap);
+
+    wrap add, # add is a subroutine.
+    pre  => sub { print "I got the arguments: [@_]\n" },
+    post => sub { print "The return value is going to be $_[-1]\n" }
+    ;
+
+* %! - sets the only key to the symbolic constant from errno.h.
+    - 	if( $!{ENOENT} )     # File doesn't exist
+
+* "die;" with no arguments re-throws the $@.
+
