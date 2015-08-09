@@ -20,14 +20,14 @@ http://www.apress.com/ApressCorporate/supplement/1/8/bcm.gif
 
 *Rating*: 9
 
-This is a very good book about installing, managing and using 
+This is a very good book about installing, managing and using
 [qmail http://www.qmail.org/] and various software that accompanies
 it and interoperates with it. It covers everything there is to know
 in a very detailed way, and is even moderately captivating.
 
-I found a few typos in the book, but I was able to easily 
-correct them for myself and they did not detract from an 
-otherwise good book on the subject. This seems to be a general 
+I found a few typos in the book, but I was able to easily
+correct them for myself and they did not detract from an
+otherwise good book on the subject. This seems to be a general
 trend in recently published books I've seen, especially from
 Apress.
 

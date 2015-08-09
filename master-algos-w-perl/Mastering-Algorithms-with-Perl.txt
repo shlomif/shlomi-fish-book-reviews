@@ -12,8 +12,8 @@ Technion. Despite  that fact, I found the book to be quite interesting
 and informative.  It taught me some things which I did not learn in the
 course or before.
 
-The book has its flaws though. For instance, it should cover 
-hash-related algorithms. Also, some issues such as Counting Sort or 
+The book has its flaws though. For instance, it should cover
+hash-related algorithms. Also, some issues such as Counting Sort or
 BFS, should have received more focus in my opinion.
 
 I think this book is especially useful for people who do not have any

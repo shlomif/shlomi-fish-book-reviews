@@ -11,13 +11,13 @@ From perldoc perldoc:
 
 * system { $args[0] } @args;
 
-If I call system(@args) and scalar(@args) == 1 then 
+If I call system(@args) and scalar(@args) == 1 then
 perldoc -f system will execute it as system "$args[0]", with special
 shell characters and all.
 
 *
 {
-		TaintIn  => 1, 
+		TaintIn  => 1,
 		TaintOut => 1,
 }
 

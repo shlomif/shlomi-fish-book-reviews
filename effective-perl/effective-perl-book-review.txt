@@ -22,7 +22,7 @@ http://www-fp.aw.com/coverimage/0201419750.jpg
 
 This is a nice book that covers many advanced techniques for writing Perl
 programs. It also discusses many caveats and gotchas of the language, and how
-to avoid them. 
+to avoid them.
 
 The book is quite old and many things it discusses have changed or have been
 updated since then. It is still mostly pertinent, however.
