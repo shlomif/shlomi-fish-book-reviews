@@ -1,0 +1,70 @@
+$'string' treats the string as ANSI-C quoted string:
+
+<<<<<<<<<<<<<<<<<<<<
+shlomi:~/Docs/programming/Bash$ echo $'Hello\nGood\n\tHi\nYes'
+Hello
+Good
+        Hi
+Yes
+shlomi:~/Docs/programming/Bash$
+>>>>>>>>>>>>>>>>>>>>
+
+http://tiswww.case.edu/php/chet/bash/bashref.html#SEC12 ("ANSI-C Quoting").
+
+--------------------------------------------------------------------------------
+
+The exit status of a pipeline is the exit status of the last command in the pipeline, unless the pipefail option is enabled
+
+------------------------------------------------------------------------------
+
+for (( expr1 ; expr2 ; expr3 )) ; do commands ; done
+
+------------------------------------------------------------------------------
+
++= adds, or appends to a number, string or array. (bash 3 extension).
+
+------------------------------------------------------------------------------
+
+${12} - { ... } are required around the "12" for more than one digit.
+
+------------------------------------------------------------------------------
+
+{5..10} same as `seq 5 10`
+
+------------------------------------------------------------------------------
+
+http://tiswww.case.edu/php/chet/bash/bashref.html#SEC29
+
+~+ is equivalent to $PWD.
+
+~- is $OLDPWD
+
+~1/~2/~3 etc. gets dirs from the directory stack.
+
+------------------------------------------------------------------------------
+
+${!... is indirection:
+
+<<<<<<<<<<
+shlomi:/$ A="Hello"
+shlomi:/$ B=A
+shlomi:/$ echo ${!B}
+Hello
+>>>>>>>>>>
+
+
+------------------------------------------------------------------------------
+
+${VAR:offset:length} is like substr() in Perl:
+
+
+------------------------------------------------------------------------------
+
+One can do <(list) and >(list). It's not supported everywhere.
+
+
+------------------------------------------------------------------------------
+
+The extglob shopt option triggers the extended pattern matching for filenames:
+
+

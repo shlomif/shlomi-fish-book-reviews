@@ -1,0 +1,74 @@
+Prelude> :info (+)
+class (Eq a, Show a) => Num a where
+  (+) :: a -> a -> a
+  ...
+        -- Defined in GHC.Num
+infixl 6 +
+Prelude> :info (*)
+class (Eq a, Show a) => Num a where
+  ...
+  (*) :: a -> a -> a
+  ...
+        -- Defined in GHC.Num
+infixl 7 *
+
+------------------------------------------------------------------------
+
+With e defined, we can now use it in arithmetic expressions. The (^)
+exponentiation operator that we introduced earlier can only raise a number to
+an integer power. To use a floating point number as the exponent, we use the
+(**) exponentiation operator.
+
+
+------------------------------------------------------------------------
+
+:set +t
+
+------------------------------------------------------------------------
+
+That it variable is a handy ghci shortcut. It lets us use the result of the
+expression we just evaluated in a new expressio
+
+------------------------------------------------------------------------
+
+:unset +t
+
+------------------------------------------------------------------------
+
+{{{{{{{
+data Customer = Customer {
+      customerID      :: CustomerID
+    , customerName    :: String
+    , customerAddress :: Address
+    } deriving (Show)
+}}}}}}}
+for creating a data type with accessors.
+
+{{{{{{{
+customer2 = Customer {
+              customerID = 271828
+            , customerAddress = ["1048576 Disk Drive",
+                                 "Milpitas, CA 95134",
+                                 "USA"]
+            , customerName = "Jane Q. Citizen"
+            }
+}}}}}}}
+
+
+------------------------------------------------------------------------
+
+fromMaybe defval wrapped =
+    case wrapped of
+      Nothing     -> defval
+      Just value  -> value
+
+------------------------------------------------------------------------
+
+The Prelude defines a function named break that we can use to partition a list into two parts. It takes a function as its first parameter. That function must examine an element of the list, and return a Bool to indicate whether to break the list at that point. The break function returns a pair, which consists of the sublist consumed before the predicate returned True (the prefix), and the rest of the list (the suffix). 2 comments
+
+ghci> break odd [2,4,5,6,8]
+([2,4],[5,6,8])
+ghci> :module +Data.Char
+ghci> break isUpper "isUpper"
+("is","Upper")
+

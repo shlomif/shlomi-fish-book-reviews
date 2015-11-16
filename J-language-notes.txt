@@ -1,0 +1,214 @@
+http://www.jsoftware.com/help/primer/alphabet.htm
+
+    - 'Single Quoted String'
+        - 'Quoted String with a '' '
+
+    - negative numbers are _3 not -3
+
+    - __ is negative infinity.
+
+    - =. is assignment (defines a verb)
+        - http://www.jsoftware.com/help/primer/name.htm
+
+    - NB. is a comment.
+
+    - +: is times 2, *: is square, -: is half, %: is square-root
+        - monads
+
+    - list is:
+        nums :. 100 24 506
+
+    - ;: parses an expression into words.
+
+* a. is "a."
+    a . b - however is "a", ".", "b"
+
+* ":" separates monadic and dyadic definitions:
+    - http://www.jsoftware.com/help/primer/monad_dyad_def.htm
+
+* "=:" is a global definition.
+
+* addb =: 4 : 'x + y'
+
+* i. $x -  the list of integers from 0 up to $x.
+    - i. 5 = 0 1 2 3 4
+
+* $ is like x in Perl. - shape
+
+<<<<<<
+       2 $ 3
+3 3
+>>>>>>
+
+* ? $N - is a random integer between 0 and $N-1
+
+* $x ^ $y is power.
+
+* 1 o. $x is the sine of $x.
+
+* 2 3 $ 7 8 9 10 11 12
+
+    - 7  8  9
+      10 11 12
+
+* i. 2 3 is [0 1 2 ; 3 4 5]
+
+* $ [Scalar] - the shape of the scalar (noun)
+
+* # $ [Scalar] - the rank of a tensor.
+
+* ; - create boxes.
+
+* $idx { $array - array deref
+
+* % is division.
+
+    - 5 % 4
+        - == 1.25
+
+* 2 ^ 3 - is 2 to the power of 3.
+
+* 2 | 5 - is 5 modulo/remainder 2,
+
+* J is right-associative.
+    - /home/shlomi/Download/unpack/prog/J-Language/j601/system/extras/help/learning/01.htm
+
+* accumulate sum -
+    + / 2 3 4
+    - the / accumulates.
+
+* "# x" gives the length of "x".
+
+* "x # y" takes the bit string "x" as left argument and selects the
+chosen items from "y".
+
+    (y > 7) # y - selects the elements of y that are greater than 7.
+
+* ">. x" - round "x" to an integer.
+
+* "x >. y" - selects the larger of x and y
+
+* ">: x" is $x+1
+
+* "x >: y" is Larger or Equal.
+
+[ Reached the end of http://www.jsoftware.com/help/learning/01.htm ]
+
+<<<<<<<
+    table =: 2 3   $   5 6 7  8 9 10
+   table
+5 6  7
+8 9 10
+
+>>>>>>>>>>
+
+* $ T - list of dimensions of "T".
+
+* square =: *: - assign an alias for a function.
+
+* ~ exchanges left and right argument.
+
+    5 -~ 6
+        1
+
+* double =: * & 2
+    -  (f & k) y    means    y f k
+    -  (k & f)  y   means    k f y
+
+* (f @: g) y    means  f (g y)
+
+* The general scheme for a hook is that if f is a dyad and g is a monad, then
+for any argument y:
+
+    - (f g) y       means   y f (g y)
+
+* 0 : 0 is like here-doc:
+
+  txt =: 0 : 0
+What is called a "script" is
+a sequence of lines of J.
+)
+
+* 0 !: 111 - "do" or eval.
+
+* 3 : 0 - a verb as follws.
+
+* =. - local assignment inside a function.
+
+* posdiff =: 4 : 0
+larger  =. x >. y
+smaller =. x <. y
+larger - smaller
+)
+
+* PosDiff =: 4 : '(x >. y) - (x <. y)'
+   4 PosDiff 3
+1
+
+* 0!:1 < File - load the file.
+
+[ Reached the beginning of http://www.jsoftware.com/help/learning/05.htm ]
+
+* ";" is "link" - used for creating lists of boxes.
+
+* ; A flattens a tensor.
+
+* ,. - "ravel items" -  makes a table.
+
+    "Ravel Items" is useful for making a 1-column table out of a list.
+
+* Monadic ,: is called "Itemize". It makes a 1-item array out of any array, by
+* adding a leading dimension of 1.
+
+* 0 5 10 { L - selects an array of the 0'th 5'th and 10'th element out of "L".
+
+* A single element of a table at, say, row 1 column 2 is selected with an index
+(< 1 ; 2).
+
+* 3 {. L - first 3 elements.
+    - 4 }. - all but the first elements.
+    - negative is last.
+
+* {: L - last item of L.
+    - }: all but the last of L.
+
+[ Reached 6.2 - http://www.jsoftware.com/help/learning/06.htm ]
+
+* } amend.
+
+[ Reached the start of http://www.jsoftware.com/help/learning/07.htm ]
+
+* < L - box verb.
+
+* There is a conjunction " (double-quote, called "Rank"), we write (< " 0) to box each scalar, that is, each 0-cell.
+
+* We multiply with the verb (* " 1 0) which can be understood as "multiply
+1-cells by 0-cells", For example.
+
+* #. (hash dot called "Base Two").
+
+* The intrinsic ranks of a verb are shown with the aid of a built-in adverb b.
+(lowercase b dot, called "Basic Characteristics"). For any verb u, the
+expression u b. 0 gives the ranks in the order monadic, left, right.
+
+[ Reached http://www.jsoftware.com/help/learning/08.htm ]
+
+* x (f &: g) y   means   (g x) f (g y)
+
+*  f ^: _1 - inverse
+
+[ Reached http://www.jsoftware.com/help/learning/09.htm ]
+
+* x (f g h) y   means    (x f y) g (x h y)
+
+*
+
+        [ y   means y
+
+      x [ y   means x
+
+        ] y   means y
+
+      x ] y   means y
+
+
